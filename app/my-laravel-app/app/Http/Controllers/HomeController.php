@@ -13,6 +13,8 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+        Log::debug(__METHOD__);
+
         $this->middleware('auth');
     }
 
