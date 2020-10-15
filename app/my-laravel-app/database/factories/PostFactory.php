@@ -11,5 +11,3 @@ $factory->define(Post::class, function (Faker $faker) {
         'contents' => $faker->realText(20),
     ];
 });
-
-Log::
